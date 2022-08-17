@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 
 
 def v(x):
-	return x**3
+	print(x)
+	return x**5
 
 
 def main():
