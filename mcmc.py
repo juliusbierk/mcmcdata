@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 
 
 def v(x):
+	print(x)
 	y = x**2
 	return x * y
 
