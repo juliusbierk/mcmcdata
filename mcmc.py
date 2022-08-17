@@ -1,8 +1,12 @@
 import numpy as np 
 import matplotlib.pyplot as plt
 
+def v(x):
+	return x**2
+
+
 def main():
-	pass
+	v(x)
 
 
 if __name__ == '__main__':
