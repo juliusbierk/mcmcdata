@@ -74,7 +74,7 @@ def mcmc_chains(x, n=100_000, chains=4):
     return pars
 
 
-def main_2():
+def main_multiprocessing():
     x = simulation(n=5000)
     pars = mcmc_chains(x)
     plt.figure(figsize=(10, 3))
@@ -98,7 +98,7 @@ def main_2():
     plt.show()
 
 
-def main_1():
+def main():
     x = simulation(n=5000)
     pars = mcmc(x)
     plt.figure(figsize=(10, 3))
@@ -117,4 +117,4 @@ def main_1():
 
 
 if __name__ == '__main__':
-    main_2()
+    main_multiprocessing()
